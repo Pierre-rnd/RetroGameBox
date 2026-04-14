@@ -351,10 +351,6 @@ body::after {
   clip-path: var(--clip-sm);
 }
 
-.tag-genre {
-  font-size: 11px;
-  color: var(--muted);
-}
 
 .card-actions {
   display: grid;

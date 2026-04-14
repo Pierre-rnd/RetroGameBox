@@ -1,92 +1,9 @@
 [
   {
     "id": 1,
-    "title": "The Legend of Zelda",
-    "console": "NES",
-    "genre": "Action",
-    "year": 1986,
-    "front": "covers/zelda-front.png",
-    "back": "covers/zelda-back.png"
-  },
-  {
-    "id": 2,
-    "title": "Super Mario Bros",
-    "console": "NES",
-    "genre": "Plateforme",
-    "year": 1985,
-    "front": "covers/mario-front.png",
-    "back": "covers/mario-back.png"
-  },
-  {
-    "id": 3,
-    "title": "Final Fantasy VII",
-    "console": "PS1",
-    "genre": "RPG",
-    "year": 1997,
-    "front": "covers/ff7-front.png",
-    "back": "covers/ff7-back.png"
-  },
-  {
-    "id": 4,
-    "title": "Mega Man X",
-    "console": "SNES",
-    "genre": "Action",
-    "year": 1993,
-    "front": "covers/megamanx-front.png",
-    "back": "covers/megamanx-back.png"
-  },
-  {
-    "id": 5,
-    "title": "Pokemon FireRed",
-    "console": "GBA",
-    "genre": "RPG",
-    "year": 2004,
-    "front": "covers/pokemon-firered-front.png",
-    "back": "covers/pokemon-firered-back.png"
-  },
-    {
-    "id": 6,
-    "title": "The Legend of Zelda",
-    "console": "NES",
-    "genre": "Action",
-    "year": 1986,
-    "front": "covers/zelda-front.png",
-    "back": "covers/zelda-back.png"
-  },
-  {
-    "id": 7,
-    "title": "Super Mario Bros",
-    "console": "NES",
-    "genre": "Plateforme",
-    "year": 1985,
-    "front": "covers/mario-front.png",
-    "back": "covers/mario-back.png"
-  },
-  {
-    "id": 8,
-    "title": "Final Fantasy VII",
-    "console": "PS1",
-    "genre": "RPG",
-    "year": 1997,
-    "front": "covers/ff7-front.png",
-    "back": "covers/ff7-back.png"
-  },
-  {
-    "id": 9,
-    "title": "Mega Man X",
-    "console": "SNES",
-    "genre": "Action",
-    "year": 1993,
-    "front": "covers/megamanx-front.png",
-    "back": "covers/megamanx-back.png"
-  },
-  {
-    "id": 10,
-    "title": "Pokemon FireRed",
-    "console": "GBA",
-    "genre": "RPG",
-    "year": 2004,
-    "front": "covers/pokemon-firered-front.png",
-    "back": "covers/pokemon-firered-back.png"
+    "title": "fxpak pro",
+    "console": "Super nintendo",
+    "front": "covers/super-nintendo/fxpak-pro-back.jpg",
+    "back": "covers/super-nintendo/fxpak-pro-front.jpg"
   }
 ]
