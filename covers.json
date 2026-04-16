@@ -306,5 +306,305 @@
     "console": "Game gear",
     "front": "static/covers/Game gear/winter olympics  front.jpg",
     "back": "static/covers/Game gear/winter olympics  back.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Dogz",
+    "console": "GBA",
+    "front": "static/covers/GBA/dogz front.jpg",
+    "back": "static/covers/GBA/dogz back.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Pc engine",
+    "console": "PC FX",
+    "front": "static/covers/jaquettes pc fx/pc engine front.jpg",
+    "back": "static/covers/jaquettes pc fx/pc engine back.jpg"
+  },
+  {
+    "id": 47,
+    "title": "Zeroigar",
+    "console": "PC FX",
+    "front": "static/covers/jaquettes pc fx/zeroigar front.jpg",
+    "back": "static/covers/jaquettes pc fx/zeroigar back.jpg"
+  },
+  {
+    "id": 48,
+    "title": "Team innocent",
+    "console": "PC FX",
+    "front": "static/covers/jaquettes pc fx/team innocent front.jpg",
+    "back": "static/covers/jaquettes pc fx/team innocent back.jpg"
+  },
+  {
+    "id": 49,
+    "title": "Kirby 64",
+    "console": "N64 JAP",
+    "front": "static/covers/N64 JAP/kirby 64 front.jpg",
+    "back": "static/covers/N64 JAP/kirby 64 back.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Mario party",
+    "console": "N64 JAP",
+    "front": "static/covers/N64 JAP/mario party front.jpg",
+    "back": "static/covers/N64 JAP/mario party back.jpg"
+  },
+  {
+    "id": 51,
+    "title": "Mario tennis 64",
+    "console": "N64 JAP",
+    "front": "static/covers/N64 JAP/mario tennis 64 front.jpg",
+    "back": "static/covers/N64 JAP/mario tennis 64 back.jpg"
+  },
+  {
+    "id": 52,
+    "title": "SC 64",
+    "console": "N64 JAP",
+    "front": "static/covers/N64 JAP/SC 64 front.jpg",
+    "back": "static/covers/N64 JAP/SC 64 back.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Yoshi story",
+    "console": "N64 JAP",
+    "front": "static/covers/N64 JAP/yoshi story front.jpg",
+    "back": "static/covers/N64 JAP/yoshi story back.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Pachi slot aruze oukoku dekahel",
+    "console": "Neo geo poket",
+    "front": "static/covers/neo geo poket/pachi slot aruze oukoku dekahel front.jpg",
+    "back": "static/covers/neo geo poket/pachi slot aruze oukoku dekahel back.jpg"
+  },
+  {
+    "id": 55,
+    "title": "BEST 143",
+    "console": "NES",
+    "front": "static/covers/NES/BEST 143 front.jpg",
+    "back": "static/covers/NES/BEST 143 back.psd.jpg"
+  },
+  {
+    "id": 56,
+    "title": "Duck tales",
+    "console": "NES",
+    "front": "static/covers/NES/duck tales front.jpg",
+    "back": "static/covers/NES/duck tales back.jpg"
+  },
+  {
+    "id": 57,
+    "title": "Excitebike",
+    "console": "NES",
+    "front": "static/covers/NES/excitebike front.jpg",
+    "back": "static/covers/NES/excitebike back.jpg"
+  },
+  {
+    "id": 58,
+    "title": "Super mario duck hunt",
+    "console": "NES",
+    "front": "static/covers/NES/super mario duck hunt front.jpg",
+    "back": "static/covers/NES/super mario duck hunt back.jpg"
+  },
+  {
+    "id": 59,
+    "title": "Teenage mutant hero turtles",
+    "console": "NES",
+    "front": "static/covers/NES/teenage mutant hero turtles front.jpg",
+    "back": "static/covers/NES/teenage mutant hero turtles back.jpg"
+  },
+  {
+    "id": 60,
+    "title": "Turbo everdrive",
+    "console": "PC ENGINE",
+    "front": "static/covers/PC ENGINE/turbo everdrive  front.jpg",
+    "back": "static/covers/PC ENGINE/turbo everdrive back.jpg"
+  },
+  {
+    "id": 61,
+    "title": "Turbo everdrive krikzz",
+    "console": "PC ENGINE",
+    "front": "static/covers/PC ENGINE/turbo everdrive krikzz front.jpg",
+    "back": "static/covers/PC ENGINE/turbo everdrive krikzz back.jpg"
+  },
+  {
+    "id": 62,
+    "title": "Armor attack",
+    "console": "VECTREX",
+    "front": "static/covers/VECTREX/Armor attack front.jpg",
+    "back": "static/covers/VECTREX/Armor attack back.jpg"
+  },
+  {
+    "id": 63,
+    "title": "Cosmic chasm",
+    "console": "VECTREX",
+    "front": "static/covers/VECTREX/cosmic chasm front.jpg",
+    "back": "static/covers/VECTREX/cosmic chasm back.jpg"
+  },
+  {
+    "id": 64,
+    "title": "Fortress of narzod",
+    "console": "VECTREX",
+    "front": "static/covers/VECTREX/Fortress of narzod front.jpg",
+    "back": "static/covers/VECTREX/Fortress of narzod back.jpg"
+  },
+  {
+    "id": 65,
+    "title": "Mine storm",
+    "console": "VECTREX",
+    "front": "static/covers/VECTREX/mine storm front.jpg",
+    "back": "static/covers/VECTREX/mine storm back.jpg"
+  },
+  {
+    "id": 66,
+    "title": "Pitrex",
+    "console": "VECTREX",
+    "front": "static/covers/VECTREX/pitrex front.jpg",
+    "back": "static/covers/VECTREX/pitrex back.jpg"
+  },
+  {
+    "id": 67,
+    "title": "Scramble",
+    "console": "VECTREX",
+    "front": "static/covers/VECTREX/scramble front.jpg",
+    "back": "static/covers/VECTREX/scramble back.jpg"
+  },
+  {
+    "id": 68,
+    "title": "Spike",
+    "console": "VECTREX",
+    "front": "static/covers/VECTREX/spike front.jpg",
+    "back": "static/covers/VECTREX/spike back.jpg"
+  },
+  {
+    "id": 69,
+    "title": "Chouji ultra baseball_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/chouji ultra baseball_.jpg"
+  },
+  {
+    "id": 70,
+    "title": "Duck hunt_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/Duck hunt_.jpg"
+  },
+  {
+    "id": 71,
+    "title": "Excite bike_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/excite bike_.jpg"
+  },
+  {
+    "id": 72,
+    "title": "Fantasy zone_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/fantasy zone_.jpg"
+  },
+  {
+    "id": 73,
+    "title": "Wld gunman_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/wild gunman_.jpg"
+  },
+  {
+    "id": 74,
+    "title": "Hogan's alley_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/hogan s alley_.jpg"
+  },
+  {
+    "id": 75,
+    "title": "HOME RUN NIGHTER 90  THE PENNANT_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/HOME RUN NIGHTER 90  THE PENNANT_.jpg"
+  },
+  {
+    "id": 76,
+    "title": "Jarinko chie_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/Jarinko chie_.jpg"
+  },
+  {
+    "id": 77,
+    "title": "Les goonies 2_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/les goonies 2_.jpg"
+  },
+  {
+    "id": 78,
+    "title": "Lode runner_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/lode runner_.jpg"
+  },
+  {
+    "id": 79,
+    "title": "Meikyu kumikyoku_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/meikyu kumikyoku_.jpg"
+  },
+  {
+    "id": 80,
+    "title": "Mindseeker_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/mindseeker_.jpg"
+  },
+  {
+    "id": 81,
+    "title": "Moero pro yakyuu baseball_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/moero pro yakyuu baseball_.jpg"
+  },
+  {
+    "id": 82,
+    "title": "Morita shogi_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/morita shogi_.jpg"
+  },
+  {
+    "id": 83,
+    "title": "MUSASHI ROAD karakuri _",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/MUSASHI ROAD karakuri _.jpg"
+  },
+  {
+    "id": 84,
+    "title": "Ninja hattori kun_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/Ninja hattori kun_.jpg"
+  },
+  {
+    "id": 85,
+    "title": "Pro yakyuu family stadium_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/pro yakyuu family stadium_.jpg"
+  },
+  {
+    "id": 86,
+    "title": "Sanma no meitantei_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/sanma no meitantei_.jpg"
+  },
+  {
+    "id": 87,
+    "title": "Star force_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/star force_.jpg"
+  },
+  {
+    "id": 88,
+    "title": "Super real baseball 88_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/super real baseball 88_.jpg"
+  },
+  {
+    "id": 89,
+    "title": "Tenchi wo kurau II_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/tenchi wo kurau II_.jpg"
+  },
+  {
+    "id": 90,
+    "title": "Tetris_",
+    "console": "FAMICOM",
+    "front": "static/covers/FAMICOM/Tetris_.jpg"
   }
 ]

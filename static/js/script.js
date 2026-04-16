@@ -75,12 +75,20 @@ function render() {
         <article class="card" data-id="${c.id}" style="animation-delay:${i * 30}ms" tabindex="0" role="button" aria-label="Voir ${c.title}">
           <div class="card-img-wrap">
             <div class="card-face card-face--front">
-              <img src="${c.front}" alt="Face avant — ${c.title}" loading="lazy" onerror="this.style.opacity=0.3" />
+              <img src="${c.front}"
+                   alt="Face avant — ${c.title}"
+                   loading="lazy"
+                   decoding="async"
+                   onerror="this.style.opacity=0.3" />
             </div>
             <div class="card-face card-face--back">
-              <img src="${c.back}" alt="Face arrière — ${c.title}" loading="lazy" onerror="this.style.opacity=0.3" />
+              <img 
+                ${c.back ? `data-src="${c.back}"` : `src="${c.front}"`}
+                alt="Face arrière — ${c.title}"
+                decoding="async"
+                onerror="this.style.opacity=0.3" />
             </div>
-            <div class="face-badge" aria-hidden="true">BACK</div>
+            ${c.back ? `<div class="face-badge" aria-hidden="true">BACK</div>` : ""}
           </div>
           <div class="card-info">
             <div class="card-title" title="${c.title}">${c.title}</div>
@@ -96,6 +104,16 @@ function render() {
       `
     )
     .join("");
+
+  document.querySelectorAll(".card").forEach((card) => {
+    card.addEventListener("mouseenter", () => {
+      const backImg = card.querySelector(".card-face--back img[data-src]");
+      if (backImg) {
+        backImg.src = backImg.dataset.src;
+        backImg.removeAttribute("data-src");
+      }
+    }, { once: true });
+  });
 }
 
 function openModal(id) {
@@ -103,8 +121,19 @@ function openModal(id) {
   if (!c) return;
 
   document.getElementById("modalTitle").textContent = c.title;
+
+  const frontCard = document.getElementById("modalFront").closest(".face-card");
   document.getElementById("modalFront").innerHTML = `<img src="${c.front}" alt="Face avant — ${c.title}" />`;
-  document.getElementById("modalBack").innerHTML  = `<img src="${c.back}"  alt="Face arrière — ${c.title}" />`;
+  frontCard.style.gridColumn = "";
+
+  const backCard = document.getElementById("modalBack").closest(".face-card");
+  if (c.back) {
+    backCard.style.display = "";
+    document.getElementById("modalBack").innerHTML = `<img src="${c.back}" alt="Face arrière — ${c.title}" />`;
+  } else {
+    backCard.style.display = "none";
+    frontCard.style.gridColumn = "1 / -1";
+  }
 
   document.getElementById("modalDetails").innerHTML = `
     <div class="detail-item">
@@ -113,17 +142,25 @@ function openModal(id) {
     </div>
     <div class="detail-item">
       <div class="detail-label">Format</div>
-      <div class="detail-value">JPG</div>
+      <div class="detail-value">${c.back ? "Front + Back" : "Face unique"}</div>
     </div>
   `;
 
-  // Stocke les infos sur les boutons pour le téléchargement via blob
   const dlFront = document.getElementById("dlFront");
   const dlBack  = document.getElementById("dlBack");
+
   dlFront.dataset.src      = c.front;
-  dlFront.dataset.filename = `${slugify(c.title)}-front.jpg`;
-  dlBack.dataset.src       = c.back;
-  dlBack.dataset.filename  = `${slugify(c.title)}-back.jpg`;
+  dlFront.dataset.filename = `${slugify(c.title)}-front.png`;
+  dlFront.style.gridColumn = "";
+
+  if (c.back) {
+    dlBack.style.display    = "";
+    dlBack.dataset.src      = c.back;
+    dlBack.dataset.filename = `${slugify(c.title)}-back.png`;
+  } else {
+    dlBack.style.display    = "none";
+    dlFront.style.gridColumn = "1 / -1";
+  }
 
   document.getElementById("modalOverlay").classList.add("open");
   document.body.style.overflow = "hidden";
@@ -139,7 +176,6 @@ function slugify(str) {
   return str.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 }
 
-// Téléchargement robuste via fetch + blob (contourne le blocage CORS)
 async function downloadFile(url, filename) {
   try {
     const res  = await fetch(url);
@@ -159,11 +195,10 @@ async function downloadFile(url, filename) {
 async function quickDownload(id) {
   const c = ALL_COVERS.find((x) => x.id === +id);
   if (!c) return;
-  await downloadFile(c.front, `${slugify(c.title)}-front.jpg`);
-  await downloadFile(c.back,  `${slugify(c.title)}-back.jpg`);
+  await downloadFile(c.front, `${slugify(c.title)}-front.png`);
+  await downloadFile(c.back,  `${slugify(c.title)}-back.png`);
 }
 
-// ---- Événements ----
 
 document.getElementById("grid").addEventListener("click", (e) => {
   const viewBtn = e.target.closest(".btn-view");
@@ -205,7 +240,6 @@ document.getElementById("modalOverlay").addEventListener("click", (e) => {
   if (e.target === document.getElementById("modalOverlay")) closeModal();
 });
 
-// Boutons de téléchargement dans la modal
 document.getElementById("dlFront").addEventListener("click", (e) => {
   e.preventDefault();
   const btn = e.currentTarget;
