@@ -22,15 +22,19 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth;
+height: 100%; }
 
 body {
   background: var(--bg);
+  display: flex;
+  flex-direction: column;
   color: var(--text);
   font-family: var(--font-mono);
   min-height: 100vh;
   cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect width='8' height='8' fill='%23ff6b35'/%3E%3Crect x='8' y='8' width='8' height='8' fill='%23ff6b35'/%3E%3C/svg%3E") 4 4, auto;
 }
+main { flex: 1; } 
 
 body::after {
   content: '';

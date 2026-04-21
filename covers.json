@@ -606,5 +606,39 @@
     "title": "Tetris_",
     "console": "FAMICOM",
     "front": "static/covers/FAMICOM/Tetris_.jpg"
+  },
+  {
+    "id": 91,
+    "title": "Earnest Evans",
+    "console": "MEGA CD",
+    "front": "static/covers/MEGA CD/earnest evans.jpg"
+  },
+  {
+    "id": 92,
+    "title": "human grand prix II",
+    "console": "Super FAMICOM",
+    "front": "static/covers/Super famicom/human grand prix II Front.jpg",
+    "back": "static/covers/Super famicom/human grand prix II back.jpg"
+  },
+  {
+    "id": 93,
+    "title": "j league prime goal 2",
+    "console": "Super FAMICOM",
+    "front": "static/covers/Super famicom/j league prime goal 2 front.jpg",
+    "back": "static/covers/Super famicom/j league prime goal 2 back.jpg"
+  },
+  {
+    "id": 94,
+    "title": "jaleco rally big run",
+    "console": "Super FAMICOM",
+    "front": "static/covers/Super famicom/jaleco rally big run Front.jpg",
+    "back": "static/covers/Super famicom/jaleco rally big run back_.jpg"
+  },
+  {
+    "id": 95,
+    "title": "street fighter II turbo",
+    "console": "Super FAMICOM",
+    "front": "static/covers/Super famicom/street fighter II turbo Front.jpg",
+    "back": "static/covers/Super famicom/street fighter II turbo back.jpg"
   }
 ]
