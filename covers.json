@@ -640,5 +640,47 @@
     "console": "Super FAMICOM",
     "front": "static/covers/Super famicom/street fighter II turbo Front.jpg",
     "back": "static/covers/Super famicom/street fighter II turbo back.jpg"
+  },
+  {
+    "id": 96,
+    "title": "kuru kuru kururin",
+    "console": "GBA",
+    "front": "static/covers/GBA/kuru kuru kururin Front.jpg",
+    "back": "static/covers/GBA/kuru kuru kururin back.jpg"
+  },
+  {
+    "id": 97,
+    "title": "sonic advendure",
+    "console": "Neo geo poket",
+    "front": "static/covers/neo geo poket/sonic advendure front.jpg",
+    "back": "static/covers/neo geo poket/sonic advendure back.jpg"
+  },
+  {
+    "id": 98,
+    "title": "Goldorak",
+    "console": "GX4000",
+    "front": "static/covers/GX4000/Goldorak  front.jpg",
+    "back": "static/covers/GX4000/Goldorak  back.jpg"
+  },
+  {
+    "id": 99,
+    "title": "PICO GX",
+    "console": "GX4000",
+    "front": "static/covers/GX4000/PICO GX front.jpg",
+    "back": "static/covers/GX4000/PICO GX BACK.jpg"
+  },
+  {
+    "id": 100,
+    "title": "Robocop 2",
+    "console": "GX4000",
+    "front": "static/covers/GX4000/Robocop 2 front.jpg",
+    "back": "static/covers/GX4000/Robocop 2 back.jpg"
+  },
+  {
+    "id": 101,
+    "title": "Sonic GX",
+    "console": "GX4000",
+    "front": "static/covers/GX4000/Sonic GX front.jpg",
+    "back": "static/covers/GX4000/Sonic GX back.jpg"
   }
 ]
